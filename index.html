@@ -28,12 +28,6 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
     
-    <!--Floating WhatsApp css-->
-    <link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
-    
-    <!--Floating WhatsApp javascript-->
-    <script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
-    
     <link rel="apple-touch-icon" sizes="57x57" href="imgs/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="imgs/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="imgs/apple-icon-72x72.png">
@@ -309,24 +303,8 @@
         </p>
     </footer>
     
-    <a href="https://wa.me/message/G2M4OFT35675G1" target="_blank" class="preto"><div id="WAButton"></div></a>
-    
-    <script type="text/javascript">
-        $('a').click(function(){ 
-            var $target = $("#navbarResponsive"); 
-            if($target.hasClass('show'))
-                $target.removeClass('show');
-        });
-        $(function() {
-            $('#WAButton').floatingWhatsApp({
-            phone: '5511997140396',
-            headerTitle: 'Entre em contato por WhatsApp!',
-            popupMessage: 'Olá, tudo bem?',
-            showPopup: true,
-            buttonImage: '<img src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/whatsapp.svg" />',
-            position: "right"    
-            });
-        });
-    </script>
+    <a href="https://wa.me/message/G2M4OFT35675G1" class="whatsapp" target="_blank">
+        <i class="fa fa-whatsapp my-wpp"></i>
+    </a>
 </body>
 </html>
