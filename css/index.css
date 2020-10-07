@@ -1,0 +1,237 @@
+body {
+    font-family: "Open Sans", sans-serif !important;
+}
+
+@font-face {
+    font-family: "edosz";
+    src: url(edosz.ttf) format('truetype');
+}
+
+.containerbox {
+    position: relative;
+    display: inline-block;
+}
+
+.navbar-brand {
+    padding: 0px !important;
+}
+
+.nav-img {
+    max-height: 50px;
+}
+
+.nav-tit{
+    color: white !important;
+}
+
+.navbar-toggler {
+    background-color: #D9CA24 !important;
+    border: 1px solid black !important;
+}
+
+html {
+  scroll-padding-top: 65px;
+}
+
+.nav-tit:hover{
+    color: #D9CA24 !important;
+}
+
+.textbox {
+    position: absolute;    
+    height: 100%;
+    text-align: center;    
+    width: 100%;
+}
+
+label {
+    display: inline-block;
+}
+
+.historia {
+    padding-bottom: 15px;
+}
+
+.tamanho {
+    max-width: 500px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.titulo-cor {
+    color: #D9CA24;
+    text-shadow: #0B264F 0.1rem 0.1rem 0.1rem;
+}
+
+.titulo-cor2 {
+    color: #0B264F;
+    text-shadow: #D9CA24 0.1rem 0.1rem 0.1rem;
+}
+
+.light {
+    font-weight: 300 !important;
+}
+
+@media screen and (min-width: 1001px) {
+  .tam-2 {
+    font-size: 1.7vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .tam-2 {
+    font-size: 17px;
+  }
+}
+
+.tam-3 {
+    font-size: 3vw;
+}
+
+@media screen and (min-width: 1001px) {
+  .tam-4 {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .tam-4 {
+    font-size: 40px;
+  }
+}
+
+.container {
+    max-width: 90% !important;
+}
+
+a.cv-btn {
+    background-color: #034e8c !important;
+    display: inline-block;
+    vertical-align: center;
+    user-select: none;
+    border: 2px solid #d9ca24;
+    border-radius: 0.5rem;
+    line-height: 1.5;
+    font-weight: 600 !important;
+    font-size: 1.5rem !important;
+    margin-bottom: 1rem;
+    padding: 0.3rem 0.9rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+a.cv-btn:hover {
+    background-color: #d9ca24 !important;
+    display: inline-block;
+    vertical-align: center;
+    user-select: none;
+    border: 2px solid #034e8c;
+    text-decoration: none;
+    color: black !important;
+}
+
+.bg-dark-blue {
+    background-color: #0b264f;
+}
+
+.pic {
+    width: 150px;
+    padding-bottom: 10px;
+}
+
+.negrito {
+    font-weight: 600 !important;   
+}
+
+.negrito1 {
+    font-weight: 600 !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .negrito1 {
+    text-align: center;
+  }
+}
+
+.negrito2 {
+    font-weight: 600 !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .negrito2 {
+    text-align: center;
+  }
+}
+
+a.mais-btn {
+    background-color: #d9ca24 !important;
+    display: inline-block;
+    vertical-align: center;
+    user-select: none;
+    border: 2px solid #034e8c;
+    border-radius: 0.5rem;
+    line-height: 1.5;
+    font-weight: 600 !important;
+    font-size: 1.5rem !important;
+    margin-bottom: 1rem;
+    padding: 0.3rem 0.9rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: black !important;
+}
+
+a.mais-btn:hover {
+    background-color: #034e8c !important;
+    display: inline-block;
+    vertical-align: center;
+    user-select: none;
+    border: 2px solid #d9ca24;
+    text-decoration: none;
+    color: white !important;
+    
+}
+
+.bg-dark-yellow {
+    background-color: #edc217;
+}
+
+.whatsapp-icon {
+    width: 4.5rem;
+}
+
+.preto {
+    color: black !important;
+    text-decoration: none !important;
+} 
+
+.redes-sociais i {
+    font-size: 6.5rem;
+    color: #034e8c;
+    margin-bottom: 1rem;
+}
+
+.cofrinho {
+    width: 150px
+}
+
+.bg-bright-blue {
+    background-color: #034e8c;
+}
+
+.footer {
+    padding: 1.3rem 0;
+}
+
+.footer p {
+    margin: unset;
+}
