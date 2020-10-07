@@ -29,8 +29,11 @@ body {
     border: 1px solid black !important;
 }
 
-html {
-  scroll-padding-top: 65px;
+a.anchor {
+    display: block;
+    position: relative;
+    top: -65px;
+    visibility: hidden;
 }
 
 .nav-tit:hover{

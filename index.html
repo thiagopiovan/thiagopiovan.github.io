@@ -1,6 +1,16 @@
 <html lang="pt-br">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179947399-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-179947399-1');
+    </script>
+    
     <title>Thiago Piovan 55888</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -17,6 +27,30 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    
+    <!--Floating WhatsApp css-->
+    <link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
+    
+    <!--Floating WhatsApp javascript-->
+    <script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="imgs/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="imgs/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="imgs/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="imgs/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="imgs/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="imgs/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="imgs/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="imgs/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="imgs/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="imgs/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="imgs/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon-16x16.png">
+    <link rel="manifest" href="imgs/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="imgs/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -52,8 +86,9 @@
             <img class="img-responsive" src="imgs/capa.png"/>  
         </div>
     </section>
-        
-    <section id="minha-historia">
+    
+    <a class="anchor" id="minha-historia"></a>
+    <section>
         <div class="container">
             <div class="text-center">
                 <p><font face="edosz" class="titulo-cor tam-4">Quem é Thiago Piovan?</font></p>
@@ -138,7 +173,8 @@
         </div>
     </section>
     
-    <section id="bandeiras-e-propostas" class="bg-dark-blue text-white">
+    <a class="anchor" id="bandeiras-e-propostas"></a>
+    <section class="bg-dark-blue text-white">
         <div class="container">
             <div class="row">
                 <div class="col text-center">
@@ -206,7 +242,7 @@
             </div>
             <div class="row">
                 <div class="col text-center">
-                    <a href="#" target="_blank" role="button" class="mais-btn">
+                    <a href="doc/bp.v1.pdf" target="_blank" role="button" class="mais-btn">
                         <i class="fas fa-plus"></i> Detalhes
                     </a>
                 </div>
@@ -214,7 +250,8 @@
         </div>
     </section>
     
-    <section id="participe" class="bg-dark-yellow text-center">
+    <a class="anchor" id="participe"></a>
+    <section class="bg-dark-yellow text-center">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -241,7 +278,7 @@
                     <p>Contribua para a campanha, clique no cofrinho!</p>
                 </div>
                 <div class="col-12">
-                    <a href="#" target="_blank">
+                    <a href="https://www.queroapoiar.com.br/thiagopiovan" target="_blank">
                         <img src="imgs/cofrinho.png" class="cofrinho" alt="Doe" />
                     </a>
                 </div>
@@ -272,11 +309,24 @@
         </p>
     </footer>
     
-    <script>
+    <div id="WAButton"></div>
+    
+    <script type="text/javascript">
         $('a').click(function(){ 
             var $target = $("#navbarResponsive"); 
             if($target.hasClass('show'))
                 $target.removeClass('show');
+        });
+        $(function() {
+            $('#WAButton').floatingWhatsApp({
+            phone: '5511997140396', //WhatsApp Business phone number International format-
+            //Get it with Toky at https://toky.co/en/features/whatsapp.
+            headerTitle: 'Entre em contato por WhatsApp!', //Popup Title
+            popupMessage: 'Olá, tudo bem?',
+            showPopup: true,
+            buttonImage: '<img src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/whatsapp.svg" />',
+            position: "right"    
+            });
         });
     </script>
 </body>
